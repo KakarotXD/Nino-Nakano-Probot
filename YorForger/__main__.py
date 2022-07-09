@@ -90,8 +90,8 @@ START_MSG = "I'm Working Out!\n<b>Haven't stopped since:</b> <code>{}</code>"
 START_IMG = "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg"
     
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/871f52a6198ade88a7f3b.mp4) 」────
-Konichiwa `{}`.
+────「 [{}](https://telegra.ph/file/ce54c0c1846380ec440b6.mp4) 」────
+Konichiwa `{}`I'm Nino Nakano A Super Group Management bot Just To Manage Your Groups!.
 *An Anime Based Bot Working Under* [【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork)
 ┏━━━━━━━━━━━━━━━━━━━━
 × *Working since:* `{}`
@@ -102,20 +102,20 @@ Konichiwa `{}`.
 """
 
 GROUP_START_TEXT = """
-I'm awake already!
+Oi Baka I'm Not Ded Yet!
 Haven't stopped since: {}
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Invite Me At Your Residence",url="http://t.me/kitaxrobot?startgroup=true"),
+            text="Invite Me At Your Residence",url="http://t.me/NinoXprobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-            text="×Support×", url=f"https://t.me/kitaxsupport"),                    
+            text="×Support×", url=f"https://t.me/NinoxSupport"),                    
         InlineKeyboardButton(
-            text="×Updates×",  url=f"https://t.me/kitaxupdates"
+            text="×Updates×",  url=f"https://t.me/"
         ),
     ],
     [
@@ -128,7 +128,7 @@ buttons = [
 
                     
 HELP_STRINGS = """
-*Main* commands available [💫](https://telegra.ph/file/bee6f9297ff8d3e2ec1c7.jpg) :
+*Main* commands available [💫]
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
  ➛ /settings:
