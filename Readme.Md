@@ -9,8 +9,8 @@
 <p align="center">
   <a href="https://github.com/SOME-1HING/yor-froger-bot/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blueviolet?style=for-the-badge" alt="License" /> </a>
   <a href="https://makeapullrequest.com"> <img src="https://img.shields.io/badge/PRs-Welcome-yellow?style=for-the-badge" alt="PRs" /></a></br>
-  <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Made%20With-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-  <a href="https://github.com/SOME-1HING/yor-froger-bot"> <img src="https://img.shields.io/badge/Maintained-Yes-lightgrey?style=for-the-badge" alt="Maintenance" /> </a>
+  <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Made%20With-Python-blue?style=for-the-badge&logo=python" alt="Python" /> </a>
+  <a href="https://github.com/SOME-1HING/yor-froger-bot"> <img src="https://img.shields.io/badge/Maintained-Yes-green?style=for-the-badge" alt="Maintenance" /> </a>
 </p>
 
 <p align="center">
