@@ -21,16 +21,16 @@
     ──「 DEPLOY ON HEROKU 」──
 </h2>
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/voidxtoxic/kita"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/KakarotXD/Nino-Nakano-Probot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 <h2 align="center">
-    ──「 SUPPORT 」──
+    ──「 SUPPORT\UPDATES 」──
 </h2>
 
 <p align="center">
-<a href= "http://t.me/KitaxRobot"> <img src="https://img.shields.io/badge/KitaxRobot-BOT-green?style=for-the-badge&logo=telegram" alt=@KitaxRobot on Telegram" /> </a>
-<a href= "https://t.me/kitaxsupport"> <img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
+<a href= "http://t.me/NinoXprobot"> <img src="https://img.shields.io/badge/NINOxPROBOT-green?style=for-the-badge&logo=telegram" alt=@KitaxRobot on Telegram" /> </a>
+<a href= "https://t.me/NinoxSupport"> <img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
 <a href="https://t.me/kitaxupdates"> <img src="https://img.shields.io/badge/Update-Channel-green?style=for-the-badge&logo=telegram" alt="Update Channel" /> </a>
 </p>
 
@@ -39,6 +39,6 @@
 </h2>
 
 <p align="center">
-<a href="https://github.com/PcDestroyerGod17"> <img src="https://img.shields.io/badge/Kakarot-magenta?style=for-the-badge&logo=github" alt="Kakarot" /> </a>
+<a href="https://github.com/KakarotXD"> <img src="https://img.shields.io/badge/Kakarot-magenta?style=for-the-badge&logo=github" alt="Kakarot" /> </a>
 <a href="https://github.com/Voidxtoxic"> <img src="https://img.shields.io/badge/voidtoxic-magenta?style=for-the-badge&logo=github" alt="voidtoxic" /> </a>
 </p>
