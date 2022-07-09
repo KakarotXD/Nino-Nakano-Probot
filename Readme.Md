@@ -1,9 +1,9 @@
 <h2 align="center">
-    ──「 SHINSUKE KITA, A ANIME THEAMED MODULAR BOT 」──
+    ──「 NINO NAKANO, AN ANIME THEAMED SUPER BOT 」──
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/e7e8f1f8e7913fc563f89.jpg">
+  <img src="https://telegra.ph/file/1ee2ffb23ab9dc3a5b042.jpg">
 </p>
 
 <p align="center">
