@@ -11,7 +11,7 @@ import YorForger.modules.sql.users_sql as sql
 
 from sys import argv
 from typing import Optional
-from Nino import (
+from YorForger import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
