@@ -6,12 +6,12 @@ import time
 import re
 import sys
 import traceback
-import YorForger.modules.sql.users_sql as sql
+import Nino.modules.sql.users_sql as sql
 # @weeb_oo
 
 from sys import argv
 from typing import Optional
-from YorForger import (
+from Nino import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -31,12 +31,12 @@ from YorForger import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from YorForger.events import register
-from YorForger.modules import ALL_MODULES
-from YorForger.modules.helper_funcs.chat_status import is_user_admin
-from YorForger.modules.helper_funcs.alternate import typing_action
-from YorForger.modules.helper_funcs.misc import paginate_modules
-from YorForger.modules.disable import DisableAbleCommandHandler
+from Nino Nakano.events import register
+from Nino Nakano.modules import ALL_MODULES
+from Nino Nakano.modules.helper_funcs.chat_status import is_user_admin
+from Nino Nakano.modules.helper_funcs.alternate import typing_action
+from Nino Nakano.modules.helper_funcs.misc import paginate_modules
+from Nino Nakano.modules.disable import DisableAbleCommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -256,7 +256,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
                 update.effective_message.reply_photo(
-            START_IMG, caption="Kita Working Since: <code>{}</code>".format(
+            START_IMG, caption="Nino Working Since: <code>{}</code>".format(
                 uptime,
             ),
             parse_mode=ParseMode.HTML,
@@ -264,8 +264,8 @@ def start(update: Update, context: CallbackContext):
              reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/kitaxsupport"),
-                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/kitaxupdates")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ❤", url="https://t.me/NinoxSupport"),
+                  InlineKeyboardButton(text="🔰Uᴘᴅᴀᴛᴇs🔰", url="https://t.me/")
                   ]
                 ]
             ),
@@ -393,7 +393,7 @@ def help_button(update, context):
 def asuna_callback_data(update, context):
     query = update.callback_query
     uptime = get_readable_time((time.time() - StartTime))
-    if query.data == "Kita_":
+    if query.data == "Nino_":
         query.message.edit_text(
             text="""CallBackQueriesData Here""",
             parse_mode=ParseMode.MARKDOWN,
@@ -406,7 +406,7 @@ def asuna_callback_data(update, context):
                 ]
             ),
         )
-    elif query.data == "Kita_back":
+    elif query.data == "Nino_back":
         first_name = update.effective_user.first_name
         query.message.edit_text(
                 PM_START_TEXT.format(
@@ -624,7 +624,7 @@ def donate(update: Update, context: CallbackContext):
     bot = context.bot
     update.effective_message.reply_text(
         "You can also donate to the person currently running me "
-        "[here](t.me/voidaryan)",
+        "[here](t.me/void_toxic)",
         parse_mode=ParseMode.MARKDOWN,
     )
 
@@ -656,9 +656,9 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                "@https://t.me/kitaxsupport",
-                "https://telegra.ph/file/af0931a6fa8ec665caa65.jpg",
-                "I Am Ready To Compete!",
+                "@https://t.me/NinoxSupport",
+                "https://telegra.ph/file/c17a2ebd117cbb67645a0.jpg",
+                "I Am Ready To Compete With Anthing!",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
