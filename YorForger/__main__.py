@@ -6,7 +6,7 @@ import time
 import re
 import sys
 import traceback
-import Nino.modules.sql.users_sql as sql
+import YorForger.modules.sql.users_sql as sql
 # @weeb_oo
 
 from sys import argv
