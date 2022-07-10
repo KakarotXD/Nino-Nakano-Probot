@@ -31,12 +31,12 @@ from Nino import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from NinoNakano.events import register
-from NinoNakano.modules import ALL_MODULES
-from NinoNakano.modules.helper_funcs.chat_status import is_user_admin
-from NinoNakano.modules.helper_funcs.alternate import typing_action
-from NinoNakano.modules.helper_funcs.misc import paginate_modules
-from NinoNakano.modules.disable import DisableAbleCommandHandler
+from YorForger.events import register
+from YorForger.modules import ALL_MODULES
+from YorForger.modules.helper_funcs.chat_status import is_user_admin
+from YorForger.modules.helper_funcs.alternate import typing_action
+from YorForger.modules.helper_funcs.misc import paginate_modules
+from YorForger.modules.disable import DisableAbleCommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
