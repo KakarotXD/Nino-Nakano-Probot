@@ -6,10 +6,10 @@ from telegram.ext import (
     CommandHandler,
 )
 
-PHOTO = "https://telegra.ph/file/fa2c031ecf5df678280e5.jpg"
+PHOTO = "https://telegra.ph/file/cfef463ba4303cf731fa0.jpg"
 
 def alive(update: Update, context: CallbackContext):
-    TEXT = f"I Am 𝐊𝐢𝐭𝐚 𝐒𝐡𝐢𝐧𝐬𝐮𝐤𝐞!\n\nI Work Under - **[【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork)** \n\n◈ I will love to be in your group chat ◈"
+    TEXT = f"I am Nino Nakano!\n\nI Work Under - **[【V๏ɪ፝֟𝔡】 ✧Network✧](https://t.me/voidxnetwork)** \n\n◈ I will love to be in your group chat ◈"
     
 
     update.effective_message.reply_photo(
@@ -19,8 +19,8 @@ def alive(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton(text="【Support】", url="https://t.me/kitaxsupport"),
-                InlineKeyboardButton(text="【Updates】", url="https://t.me/kitaxupdates")
+                InlineKeyboardButton(text="【Support】", url="https://t.me/NinoxSupport"),
+                InlineKeyboardButton(text="【Updates】", url="https://t.me/NinoXupdates")
                 ],
                 [InlineKeyboardButton(text="【V๏ɪ፝֟𝔡】Network", url="https://t.me/voidxnetwork")]
             ]
